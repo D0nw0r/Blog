@@ -1,6 +1,6 @@
 +++
 date = '2025-10-23T14:41:54+02:00'
-draft = false
+draft = true
 title = 'REROP - Reproducing exploits your own way'
 description = 'Practicing building a solid ROP chain.'
 +++
