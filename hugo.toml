@@ -106,7 +106,7 @@ theme = "DoIt"
     #  Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "/Blogs/images/binary.jpeg"
+      logo = "/Blog/images/binary.jpeg"
       # title name
       name = "Binary Sunset"
       # you can add extra information before the name (HTML format is supported), such as icons
