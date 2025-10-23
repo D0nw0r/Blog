@@ -1,4 +1,4 @@
-baseURL = "http://blog.donwor.net/"
+baseURL = "https://d0nw0r.github.io/Blog"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
