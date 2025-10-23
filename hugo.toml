@@ -710,3 +710,7 @@ author = "authors"
 category = "categories"
 tag = "tags"
 series = "series"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
