@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Binary Sunset</title>
+        <link>http://localhost:1313/</link>
+        <description>This is My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 23 Oct 2025 14:41:54 &#43;0200</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>REROP - Reproducing exploits your own way</title>
+    <link>http://localhost:1313/first_post/</link>
+    <pubDate>Thu, 23 Oct 2025 14:41:54 &#43;0200</pubDate><author>
+        <name>Donwor</name>
+    </author><guid>http://localhost:1313/first_post/</guid>
+    <description><![CDATA[Practicing building a solid ROP chain.]]></description>
+</item></channel>
+</rss>
