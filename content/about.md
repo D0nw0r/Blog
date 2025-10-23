@@ -5,7 +5,7 @@ draft = false
 
 
 # Hey, I'm Diogo
-<img src="/images/binary.jpeg" alt="Binary Sunset" style="float: right; margin-left: 20px; margin-bottom: 20px; max-width: 400px; border-radius: 8px;">
+<img src="images/binary.jpeg" alt="Binary Sunset" style="float: right; margin-left: 20px; margin-bottom: 20px; max-width: 400px; border-radius: 8px;">
 
 **Binary Sunset** is meant to be a collection of researches/struggles/ideas that I found some value in sharing with the security community.
 In this field, I cannot count the number of times that a "random" blog has saved me when facing an uknown problem. Hopefully someone else will find these posts helpful.
