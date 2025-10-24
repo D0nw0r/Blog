@@ -12,9 +12,9 @@ theme = "DoIt"
   #  DoIt theme version
   version = "0.4.X"
   # website title
-  title = "My New Hugo Site"
+  title = "Binary Sunset"
   # site description
-  description = "This is My New Hugo Site"
+  description = "Breaking things to understand them"
   # site keywords
   keywords = ["Vulnerability", "Research","Exploit","Malware","Development","Blog"]
   #  site default theme ("light", "dark", "black", "auto")
