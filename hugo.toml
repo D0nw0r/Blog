@@ -76,7 +76,7 @@ theme = "DoIt"
     #  HTML tag name of the highlight part in results
     highlightTag = "em"
     #  whether to use the absolute URL based on the baseURL in search index
-    absoluteURL = false
+    absoluteURL = true
     [params.search.algolia]
       index = ""
       appID = ""
@@ -85,11 +85,11 @@ theme = "DoIt"
       #  https://fusejs.io/api/options.html
       isCaseSensitive = false
       minMatchCharLength = 2
-      findAllMatches = false
+      findAllMatches = true
       location = 0
       threshold = 0.3
       distance = 100
-      ignoreLocation = false
+      ignoreLocation = true
       useExtendedSearch = false
       ignoreFieldNorm = false
 
