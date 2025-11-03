@@ -223,7 +223,7 @@ Instead of prepending a loader to the DLL and exporting it as shellcode, why don
 
 ![alt text](/images/beacon.png)
 
-The image above is from the article mentioned beforehand, and the idea is that by patching the DLL's initial bytes with assembly instructions that find the ``ReflectiveLoader`` function address and execute it, we no longer need a blob that loads the DLL into memory, making this a sort of **hybrid** between classic RDLL and the sRDI version.
+The image above is from the article mentioned beforehand, and the idea is that by patching the DLL's initial bytes with assembly instructions that find the ``ReflectiveLoader`` function address and execute it, **we no longer need a blob that loads the DLL into memory, making this a sort of hybrid between classic RDLL and the sRDI version**.
 
 One caveat though, is that in Beacon's case, DLLMain is still called after the ReflectiveLoader function executes. In my case, this is not needed as the function itself will call DllMain.
 
@@ -232,16 +232,18 @@ One caveat though, is that in Beacon's case, DLLMain is still called after the R
 
 This is an example of what the shellcode could look like (I use NeoVim, btw).
 
-So now, after patching the DLL and saving it as a binary file, we can use any shellcode loader to load our payload.
+So now, after patching the DLL and saving it as a binary file, **we can use any shellcode loader to load our RDLL, and develop it with the CRT enabled.**
 
 ![alt text](/images/outcome.png)
 
 
 ## Was this all worth the trouble?
 
-I went out to solve a problem that didn't really require a solution (sRDI already existed), but I ended up learning a lot from the journey itself. Trying things and understanding why they work, their design choices, troubleshooting them are skills that I have found valuable to have in this field.
+I went out to solve a problem originally but along the way it transformed into something else. I ended up learning a lot from the journey itself. Trying things, understanding why they work, their design choices, troubleshooting them are skills that I have found valuable to have in this field.
 
-I will be posting the code soon to my Github page, or should I re-write everything in Rust?...
+**Customizing and adapting existing solutions, turning them into our own is no different than being a musician and using chords in different rhythms or orders to make our own songs.**
+
+I will be posting the source code of the RDLL-CRT soon to my Github page, or should I re-write everything in Rust?...
 
 
 ### Special thanks
