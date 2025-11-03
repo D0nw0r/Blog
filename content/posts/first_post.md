@@ -242,3 +242,12 @@ So now, after patching the DLL and saving it as a binary file, we can use any sh
 I went out to solve a problem that didn't really require a solution (sRDI already existed), but I ended up learning a lot from the journey itself. Trying things and understanding why they work, their design choices, troubleshooting them are skills that I have found valuable to have in this field.
 
 I will be posting the code soon to my Github page, or should I re-write everything in Rust?...
+
+
+### Special thanks
+
+I would just like to give a special thank you to:
+
+- MaldevAcademy, the best resource for everything Maldev, specially their Discord with the amazing community.
+- Nick! 
+- All the references I have used withing the blog post, their work is invaluable to other researchers and developers.
