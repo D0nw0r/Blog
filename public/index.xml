@@ -1,9 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Binary Sunset</title>
-        <link>https://d0nw0r.github.io/</link>
+        <link>http://localhost:1313/</link>
         <description>Breaking things to understand them</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 23 Oct 2025 14:41:54 &#43;0200</lastBuildDate>
-            <atom:link href="https://d0nw0r.github.io/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 02 Nov 2025 14:41:54 &#43;0200</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>A slightly different Reflective DLL</title>
+    <link>http://localhost:1313/first_post/</link>
+    <pubDate>Sun, 02 Nov 2025 14:41:54 &#43;0200</pubDate><author>
+        <name>Donwor</name>
+    </author><guid>http://localhost:1313/first_post/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>

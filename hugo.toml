@@ -476,6 +476,7 @@ theme = "DoIt"
     #  Third-party library config
     [params.page.library]
       [params.page.library.css]
+        custom = "css/custom.css"
         # someCSS = "some.css"
         #  Enhance third-party library config
         # [params.page.library.css.someOtherCSS]
@@ -714,3 +715,5 @@ series = "series"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+
