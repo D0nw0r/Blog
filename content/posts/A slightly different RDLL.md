@@ -1,5 +1,5 @@
 +++
-date = '2025-11-02T14:41:54+02:00'
+date = '2025-11-03T15:52:54+02:00'
 draft = false
 title = 'A slightly different Reflective DLL'
 subtitle = 'Making reflective DLLs CRT compatible and "shellcodable"'
